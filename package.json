@@ -1,0 +1,17 @@
+{
+  "name": "lobeez",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Pavle Milicevic <pavle.milicevic@brandingbrand.com>",
+  "license": "MIT",
+  "scripts": {
+    "server:dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.9"
+  }
+}
